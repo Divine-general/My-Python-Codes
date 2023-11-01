@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solomon grace schools Result checker portal INTERFACE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-page"></div>
+    <div class="navbar"> 
+        <a href="website.html">Solomon Grace School Result Login</a>
+    </div> 
+    <div class="left">
+        <img src="/IMAGE/Screenshot_20230915_203648_Facebook.jpg" width="300px">
+    </div>
+    <nav>
+        <ul id="MenuItems">
+            <li><a href='#'>Home</a></li>
+            <li><a href='#'>About Us</a></li>
+            <li><a href='#'>Services</a></li>
+            <li><a href='#'>Contact</a></li>
+            <li><button class='loginbtn'
+             onclick="document.getElementById('login-form').style.display='block'"
+             style="width:auto;">login</button>
+            </li>   
+        </ul>
+    </nav>
+    </div>
+    <div id="login-form"class='login-page'>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="'btn"></div>
+                <button
+                type="button"onclick='login()'class='toggle-btn'>Register</button>
+            </div>
+            <form id="login" class="input-group-login">
+                <input type="text"class='input-field'placeholder='Email Id'required> <br>
+                <br>
+                <input type="password"class='input-field'placeholder='Enter Password'required> <br>
+                <br>
+                <input type="checkbox"class='check-box'><span>Remember Password</span> <br>
+                <br>
+                <button type="submit"class='submit btn'>Log in</button>
+            </form>
+            <form id="register" class="input-group-register">
+                <input type="text"class='input-field'placeholder='First Name'required> <br>
+                <br>
+                <input type="text"class='input-field'placeholder='Last Name'required> <br>
+                <br>
+                <input type="email"class='input-field'placeholder='Email Id'required> <br>
+                <br>
+                <input type="password"class='input-field'placeholder='Enter Password'required> <br>
+                <br>
+                <input type="password"class='input-field'placeholder='Confirm Password'required> <br>
+                <br>
+                <input type="checkbox"class='check-box'><span>I agree to the terms and condition</span>
+                <button type="submit"class='submit-btn'>Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
